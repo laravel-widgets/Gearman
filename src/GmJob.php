@@ -1,6 +1,5 @@
 <?php
-
-namespace Pafelin\Gearman\Jobs;
+namespace LaravelWidgets\Gm;
 
 use Illuminate\Container\Container;
 use Illuminate\Contracts\Queue\Job as QueueJobInterface;
