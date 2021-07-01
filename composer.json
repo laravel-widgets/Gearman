@@ -1,0 +1,17 @@
+{
+    "name": "laravel-widgets/gm",
+    "autoload": {
+        "psr-4": {
+            "LaravelWidgets\\Gm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "laracro",
+            "email": "laracro@163.com"
+        }
+    ],
+    "require": {
+        "illuminate/queue": "7.*|8.*"
+    }
+}
