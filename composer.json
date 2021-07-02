@@ -1,5 +1,5 @@
 {
-    "name": "laravel-widgets/gm",
+    "name": "laravel-widgets/Gearman",
     "autoload": {
         "psr-4": {
             "LaravelWidgets\\Gm\\": "src/"
