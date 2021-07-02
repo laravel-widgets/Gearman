@@ -5,7 +5,6 @@ use Illuminate\Queue\Queue;
 use \GearmanClient as GmClient;
 use \GearmanWorker as GmWorker;
 use Illuminate\Contracts\Queue\Queue as QueueInterface;
-use Pafelin\Gearman\Jobs\GmJob;
 
 class GmQueue extends Queue implements QueueInterface {
 
@@ -105,7 +104,6 @@ class GmQueue extends Queue implements QueueInterface {
         if(!$queue) {
             $queue = $this->queue;
         }
-
         return new GmJob($this->container, $this->worker, $queue);
     }
 

@@ -73,7 +73,7 @@ class GmJob extends Job implements QueueJobInterface
         return $this->worker;
     }
 
-    public function onGearmanJob(\GearmanJob $job)
+    public function onGmJob(\GearmanJob $job)
     {
         $this->rawPayload = $job->workload();
 
